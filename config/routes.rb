@@ -5,10 +5,14 @@ Rails.application.routes.draw do
 
   get "users", to: "users#index"
 
-  #/about => LoginController@about
-
- 
   # GET /users/id => UsersController@show #Detalle del usuario
+
+  get "users/:id", to: "users#show"
+
+
+  
+ 
+  
   # GET /users/id => UsersController@edit #Muestra el formulario para editar el usuario
   # PUT /users/id => UsersController@update #Actualiza informacion cuando se envia desde el el formulario editar
   # DELETE/ /users/id => UsersController@delete #Eliminar el registra especificado

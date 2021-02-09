@@ -1,5 +1,9 @@
 class UsersController < ApplicationController
     def index
-        print "index"
+    end
+
+    def show
+        print 'xxxxx'
     end
 end    
+

@@ -1,0 +1,11 @@
+.open ProfileList.db
+
+CREATE TABLE Details1(
+[Id] INTEGER NOT NULL PRIMARY KEY, 
+[Name] NVARCHAR(50) NOT NULL,
+[LinkeIn] NVARCHAR(50) NOT NULL,
+[Github] NVARCHAR(30) NOT NULL
+);
+
+INSERT INTO Details1(Id, Name, LinkeIn, Github)
+ VALUES (1, "Daniela Ramirez", "https://www.linkedin.com/in/danielaramirezgomez/", "https://github.com/danyramirezg");
